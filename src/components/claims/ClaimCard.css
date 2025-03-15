@@ -1,0 +1,62 @@
+.claim-card {
+  margin-bottom: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.claim-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.claim-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.claim-card-status {
+  font-weight: bold;
+}
+
+.claim-card-date {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.claim-card-description {
+  margin-bottom: 1rem;
+}
+
+.claim-card-files {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.claim-card-file {
+  background-color: #f5f5f5;
+}
+
+.claim-card-approved-amount {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  color: #2e7d32;
+}
+
+.claim-card-comments {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.claim-card-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.claim-review-divider {
+  margin: 1rem 0 !important;
+}

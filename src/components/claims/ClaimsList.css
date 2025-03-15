@@ -1,0 +1,30 @@
+.claims-list-container {
+  margin-top: 1rem;
+}
+
+.claims-list-header {
+  margin-bottom: 1.5rem;
+}
+
+.claims-list-filters {
+  margin-top: 1rem !important;
+}
+
+.claims-list-loading {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.claims-list-error {
+  margin-bottom: 1rem !important;
+}
+
+.claims-list-empty {
+  margin-bottom: 1rem !important;
+}
+
+.claims-list {
+  display: flex;
+  flex-direction: column;
+}
