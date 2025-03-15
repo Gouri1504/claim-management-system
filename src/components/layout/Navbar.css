@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #1976d2 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.navbar-title {
+  font-weight: 600 !important;
+  letter-spacing: 0.5px !important;
+}
+
+.navbar-welcome {
+  margin-right: 20px !important;
+}
+
+.navbar-button {
+  margin-left: 10px !important;
+}
+
+@media (max-width: 600px) {
+  .navbar-welcome {
+    display: none !important;
+  }
+
+  .navbar-title {
+    font-size: 1rem !important;
+  }
+}

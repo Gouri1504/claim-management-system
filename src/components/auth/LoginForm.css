@@ -1,0 +1,32 @@
+.login-form-container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.login-form-title {
+  margin-bottom: 1.5rem !important;
+  text-align: center;
+  color: #1976d2;
+  font-weight: 600 !important;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-button {
+  margin-top: 1.5rem !important;
+  height: 48px;
+}
+
+.login-form-alert {
+  margin-bottom: 1rem !important;
+}
+
+.login-form-demo-text {
+  margin-top: 1rem !important;
+  text-align: center;
+  color: #666;
+}
